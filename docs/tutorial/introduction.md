@@ -1,4 +1,4 @@
-# 导航
+### 导航
 - [HTML介绍](#HTML介绍)
 	- [简单示例](一个简单的HTML示例)
 	- [示例解释](#示例解释)
@@ -13,10 +13,10 @@
 ## HTML介绍
 **HTML 是创建Web页面的标准标记语言**
 > - HTML 代表超文本标记语言(**H**yper**T**ext **M**arkup **L**anguage)
-- HTML 不是一种编程语言，而是创建Web页面的标准标记语言
-- HTML 描述了Web页面的结构，HTML文档也叫做 web 页面
-- HTML 由一系列元素组成，元素告诉浏览器如何显示内容
-- HTML 元素标记内容片段，如“这是一个标题”，“这是一个段落”，“这是一个链接”，等等
+> - HTML 不是一种编程语言，而是创建Web页面的标准标记语言
+> - HTML 描述了Web页面的结构，HTML文档也叫做 web 页面
+> - HTML 由一系列元素组成，元素告诉浏览器如何显示内容
+> - HTML 元素标记内容片段，如“这是一个标题”，“这是一个段落”，“这是一个链接”，等等
 
 ##### 一个简单的HTML示例
 ```html
@@ -50,21 +50,27 @@
 - `<meta charset="GBK">`
 
 ## HTML标签
-HTML 标记标签通常被称为 HTML 标签 (HTML tag)。
+- HTML 标记标签通常被称为 HTML 标签 (HTML tag)
 
-HTML 标签是由尖括号包围的关键词，比如 `<html>`
-HTML 标签通常是成对出现的，比如 `<b>` 和 `</b>`
-标签对中的第一个标签是开始标签，第二个标签是结束标签
-开始和结束标签也被称为开放标签和闭合标签
-`<标签名> 内容在这里… </标签名>`
+- HTML 标签是由尖括号包围的关键词，比如 `<html>`
+
+- HTML 标签通常是成对出现的，比如 `<b>` 和 `</b>`
+
+- 标签对中的第一个标签是开始标签，第二个标签是结束标签
+
+- 开始和结束标签也被称为开放标签和闭合标签`<标签名> 内容在这里</标签名>`
 
 ## HTML元素
 **HTML 标签** 和 **HTML 元素** 通常都是描述同样的意思
 
 > 一个HTML元素由一个开始标记、一些内容和一个结束标记定义:
+
 `<标签名> 内容在这里… </标签名>`
+
 > HTML元素包括从开始标签到结束标签的所有内容:
+
 `<h1>我的第一个标题</h1>`
+
 `<p>我的第一个段落</p>`
 
 | 开始标签 | 元素内容 | 结束标签 |
@@ -78,20 +84,26 @@ HTML 标签通常是成对出现的，比如 `<b>` 和 `</b>`
 
 ## Web浏览器
 **网络浏览器的目的是读取HTML文档并正确显示它们**
+
 浏览器不显示HTML标记，而是使用它们来确定如何显示文档:
-![](https://raw.githubusercontent.com/Eoooy/html-tutorial/main/gallery/docs/tutorial/introduction/image1.jpg)
+
+![](https://raw.githubusercontent.com/oovy/html-tutorial/main/gallery/docs/tutorial/introduction/image1.jpg)
 
 ## HTML页面结构
 下面是一个HTML页面结构的可视化:
-![](https://raw.githubusercontent.com/Eoooy/html-tutorial/main/gallery/docs/tutorial/introduction/image2.jpg)
+
+![](https://raw.githubusercontent.com/oovy/html-tutorial/main/gallery/docs/tutorial/introduction/image2.jpg)
 
 **注意:**
 `<body>`部分中的内容将显示在浏览器中
+
 `<title>`元素中的内容将显示在浏览器的标题栏或页面的选项卡中
 
 ## <!DOCTYPE>声明
 **`<!DOCTYPE>`声明有助于浏览器中正确显示网页**
+
 声明是不区分大小写的，以下方式均可：
+
 ```html
 <!DOCTYPE html>
 <!DOCTYPE HTML>
@@ -101,6 +113,6 @@ HTML 标签通常是成对出现的，比如 `<b>` 和 `</b>`
 
 ## HTML文档后缀名
 **以下两种后缀名没有区别，都可以使用**
-> - .html
-- .htm
 
+- .html
+- .htm
